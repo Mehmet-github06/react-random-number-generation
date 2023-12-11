@@ -30,15 +30,15 @@ function App() {
         </div>
         <div className="numContainer">
           <div>
-            <p>Min Number</p>
+            <p>Min Number ❔</p>
             <input
               type="text"
               value={min}
               onChange={(e) => setMin(+e.target.value)}
             />
           </div>
-          <div>
-            <p>Max Number</p>
+          <div className="ptexet">
+            <p>Max Number ❔</p>
             <input
               type="text"
               value={max}
